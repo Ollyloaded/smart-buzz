@@ -56,7 +56,7 @@ const Login = () => {
 
   const loginHandle = () => {
     axios
-      .post('https://email-marketing-vikash.vercel.app/user/login', {
+      .post('https://smartbuzz.vercel.app/user/login', {
         identifier: values.identifier,
         password: values.password,
         otp: otp,
