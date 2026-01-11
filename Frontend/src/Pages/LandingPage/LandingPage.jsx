@@ -13,7 +13,7 @@ const LandingPage = () => {
      <br></br>
      <br></br>
      <br></br>
-        <h1>Email Marketing Management System</h1>
+        <h1>SmarBuzz Bulk Mails Sender</h1>
         <p>Create, manage, and analyze your email campaigns</p>
      
 
