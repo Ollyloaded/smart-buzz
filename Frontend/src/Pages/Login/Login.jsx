@@ -39,7 +39,7 @@ const Login = () => {
 
   const generateOtp = () => {
     axios
-      .post('https://email-marketing-vikash.vercel.app/user/generate-otp', {
+      .post('https://smartbuzz.vercel.app/user/generate-otp', {
         identifier: values.identifier,
       })
       .then((data) => {
@@ -84,7 +84,7 @@ const Login = () => {
           <div className="modal-container">
             <div className="modal-left">
               <h1 className="modal-title">welcome !</h1>
-              <p className="modal-desc">project - Login to your account</p>
+              <p className="modal-desc">SmartBuzz - Login to your account</p>
               <ToastContainer
                 position="bottom-right"
                 autoClose={1000}
